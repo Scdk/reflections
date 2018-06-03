@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository, you create a .git paste in the folder that
+stores old versions of the files in the folder(commits).
