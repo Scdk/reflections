@@ -2,3 +2,11 @@ What happens when you initialize a repository? Why do you need to do it?
 
 When you initialize a repository, you create a .git paste in the folder that
 stores old versions of the files in the folder(commits).
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The staging area is different from the working directory and the repository because
+it is the transition between both, the files from the working directory are put there
+and then send to the repository.
+

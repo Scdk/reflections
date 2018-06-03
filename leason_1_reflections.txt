@@ -1,0 +1,50 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+The visualization of a diff between two files helps you save time, 
+the same process can be done manually, 
+but that would take lots of time in bigger projects, 
+like the game used in the example.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Having easy access to the entire history of a file 
+makes you a more efficient programmer because it makes you the save time 
+that you would've spent searching for errors that only begin to happen
+after a certain alteration in the program. Without it, the process of
+creating a program would've taken much time, thus making the process
+less efficient.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+The pros are: more control over the number of old versions created
+and assurance that every old version has an important alteration.
+The cons are: the possibility that you'll forget to save.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Git allows saving multiple files in one commit because git is made thinking in
+programming, and in many cases when programming you will need to depend on more
+than one file, so saving all the repository ensures that the whole program is saved.
+
+How can you use the commands git log and git diff to view the history of files?
+
+With the command git log you see all the commits made, 
+and then witch the id of the comits you use the command 
+git diff to see the differences between the two commits
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Version control makes me more confident to make changes that could break something,
+because I know that I will always have the old versions of the file I'am working on,
+so even if I break something I can easily find the error using commands like diff.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Now that I have my workspace set up I want try using the git with the git hub
+to make version control of projects in the future.
