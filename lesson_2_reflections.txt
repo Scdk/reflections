@@ -10,3 +10,37 @@ The staging area is different from the working directory and the repository beca
 it is the transition between both, the files from the working directory are put there
 and then send to the repository.
 
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+The staging area works as a "temporary commit" making it easier to only commit
+changes that are really important, but still keeping the security of having a recent
+version saved.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Situations when branches would be helpful in keeping your history organized are
+situations in with the project has some alterations that would add some extra feature
+to the project, something that the code doesn't actually need to work, like a new feature
+of a new language. Branches would help to keep the project more organized and easily
+to fix in case of any error.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help you visualize the branch structure, by making easier to see the relations 
+between branches and commits.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+The result of merging two branches together is making the two branches become one
+with the tip of each branch being a father to the merge(like shown in the diagram), that way commands like
+git log will show commits from both branches.
+
+What are the pros and cons of automatic merging vs. always doing merges
+manually?
+
+The pros are that you save time by using automatic merging, and makes it possible
+to use git log to see all the changes made to the program. The cons are that in case of conflict
+you will have to resolve manually.
