@@ -3,3 +3,42 @@ local?
 
 I would want to create a remote repository when I'm working with other people or
 to present my project to someone else, like sending a project to a teacher.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+I want to always pull changes manually because by doing that I know that I'll
+only have in my repository the files I want to send.
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+The difference between forks, clones, and branches is that forks create a copy
+of the repository of someone else into your account, clone copy's a repository
+into your local machine and branches just create a diversion from the point
+in which the repository is and allow you to make changes in the project
+without altering the main project.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+The benefit of having a copy of the last known state of the remote store
+locally is that when working with other persons this person can make
+changes that you don't know. By having a copy of the last state of the
+remote you can see the changes made, and merge the version of
+the repository with the one you have stored.
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+To colaborate without using Git or GitHub I'll need to be constantly sending
+messages to the other person, in a larger scale project that would be inviable.
+By using Git and GitHub I'll have to commit changes and other things, but
+the project will be more organized.
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+I would want to make changes in a separate branch when the changes are something
+that the project doesn't actually need to work, so that change can be worked without
+causing any bugs in the main project. This organizes the project.
